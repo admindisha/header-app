@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+const Main = () => {
+  return (
+    <main className="main">
+      <h2> Search across <strong>'4.7 Crore+'</strong> <span className="highlight">Businesses</span></h2>
+      <div className="search-box">
+        <input type="text" placeholder="Betkuli, Karwar" className="location" />
+        <input type="text" placeholder="Search in Karwar" className="search" />
+        <button className="search-btn">🔍</button>
+      </div>
+      <button className="download-app">Download App ⬇</button>
+    </main>
+  );
+};
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export default Main;

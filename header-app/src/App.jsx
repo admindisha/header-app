@@ -1,11 +1,11 @@
-import React from 'react';
-import Header from './components/header';
+import Header from "./Header";
+import Main from "./main";
 
 const App = () => {
   return (
     <div>
       <Header />
-      {/* Other components can be added here */}
+      <Main />
     </div>
   );
 };

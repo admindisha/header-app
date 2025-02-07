@@ -1,27 +1,57 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 10px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .search-info {
-    font-size: 14px;
-    color: #666;
-    margin-top: 10px;
-  }
-  
-  .location-info {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 5px;
-  }
-  
-  .location, .search-in {
-    font-size: 14px;
-    color: #333;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: blue;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+}
+.highlight {
+  color: orange;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  align-items: center;
+}
+.business-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 80px; /* Making the box smaller */
+}
+.business {
+  background: red;
+  color: white;
+  padding: 2px 5px;
+  font-size: 9px; /* Making BUSINESS smaller */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.free-listing {
+  font-size: 12px;
+  text-align: center;
+}
+.login {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+/* Align Free Listing to Advertise */
+.free-listing {
+  position: relative;
+  top: -5px;
+}
