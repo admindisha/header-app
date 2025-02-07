@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .search-info {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .location-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  .location, .search-in {
+    font-size: 14px;
+    color: #333;
+  }
